@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-go install github.com/nezbut/sleeppls/cmd/sleeppls-cli
+go install github.com/nezbut/sleeppls/cmd/sleeppls-cli@latest
 ```
 
 or
@@ -15,6 +15,8 @@ Clone the repository and install local:
 ```bash
 make install
 ```
+
+bin `sleeppls-cli` will be installed in `$GOPATH/bin`
 
 After installation and the first run you will have a picture that you need for `DesktopNotifier`, it will appear in the path you specified in `-nicon`, default is `$HOME/SleepPls_notify_icon.png`.
 
